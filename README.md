@@ -18,30 +18,17 @@
    - Clone the repository to your local machine using the following command:
 
      ```bash
-     git clone https://github.com/your-username/your-repository.git
+     git clone https://github.com/maryanmats/tt-plerdy.git
      ```
 
    - Change into the project directory:
 
      ```bash
-     cd your-repository
+     cd tt-plerdy
      ```
 
-2. **Install Dependencies and Run Live Server:**
-   - Run the following command to install the project dependencies:
-
-     ```bash
-     npm install
-     ```
-
-   - After the installation is complete, start the project using:
-
-     ```bash
-     npm run live-server
-     ```
-
-3. **Open the Project:**
-   - Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the project locally.
+2. **Open the Project:**
+   - Download and open 'Live Server' to view the project locally.
 
 Now, you should be able to see the project running on your local machine.
 
