@@ -1,0 +1,41 @@
+@import url("./variables.css");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding-top: 50px;
+  counter-reset: number;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    padding-top: 77px;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
